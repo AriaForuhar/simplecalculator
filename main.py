@@ -20,9 +20,9 @@ opr = input('enter oprator')
 
 if opr == '+':
     print(f'jam:{jam(x, y)}')
-if opr == '-':
+elif opr == '-':
     print(f'tafrigh:{tafrigh(x, y)}')
-if opr == '*':
+elif opr == '*':
     print(f'zarb:{zarb(x, y)}')
-if opr == '/':
+elif opr == '/':
     print(f'taghsim:{taghsim(x, y)}')
